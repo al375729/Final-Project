@@ -6,7 +6,7 @@ import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
 import java.io.Serializable;
-//asd
+
 @Entity(tableName = "champions")
 public class Champions implements Serializable {
     @PrimaryKey
