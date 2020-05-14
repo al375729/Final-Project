@@ -1,12 +1,13 @@
-package com.example.leagueoflgendsaccountinformation;
+package com.example.leagueoflgendsaccountinformation.MainActivity;
 
 import android.util.Log;
 
 import com.android.volley.NetworkError;
-import com.android.volley.NetworkResponse;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.example.leagueoflgendsaccountinformation.Database.Champions;
+import com.example.leagueoflgendsaccountinformation.Model;
+import com.example.leagueoflgendsaccountinformation.Classes.Player;
 
 import java.util.List;
 
@@ -23,10 +24,8 @@ public class MainPresenter {
             @Override
             public void onResponse(Champions response) {
                 if(response ==null){
-                    Log.d("myTag", "BD VACIA");
                     pedirCampeonesApi();
                 }
-                else Log.d("myTag", response.name);
             }
         },102);
     }
@@ -36,8 +35,6 @@ public class MainPresenter {
             @Override
             public void onResponse(List<Champions> response) {
                 int size = response.size();
-                Log.d("myTag", response.get(size-1).name);
-                Log.d("myTag", "RESPONDER API");
                 modelo.insertarCampeonesBD(response);
             }
         }, new Response.ErrorListener() {

@@ -9,16 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MatchInfoActivity" ></activity>
-        <activity android:name=".ChampionActivity" ></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".MatchesActivity.MatchInfoActivity" ></activity>
+        <activity android:name=".ChampionActivity.ChampionActivity" ></activity>
+        <activity android:name=".MainActivity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AccountActivity" ></activity>
+        <activity android:name=".AccountActivity.AccountActivity" ></activity>
 
     </application>
 

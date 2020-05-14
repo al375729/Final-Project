@@ -12,6 +12,8 @@ import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.JsonRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.leagueoflgendsaccountinformation.Classes.Match;
+import com.example.leagueoflgendsaccountinformation.Classes.Player;
 import com.example.leagueoflgendsaccountinformation.Database.Champions;
 /*
 import com.example.ujisoccer.Database.League;
@@ -27,7 +29,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
+
 public class ApiAccess {
 
     private static final String token = "X-Riot-Token";

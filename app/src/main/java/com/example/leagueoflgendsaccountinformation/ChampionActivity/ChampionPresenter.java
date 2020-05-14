@@ -1,14 +1,9 @@
-package com.example.leagueoflgendsaccountinformation;
-
-import android.graphics.Bitmap;
-import android.util.Log;
+package com.example.leagueoflgendsaccountinformation.ChampionActivity;
 
 import com.android.volley.Response;
-import com.android.volley.VolleyError;
+import com.example.leagueoflgendsaccountinformation.ChampionActivity.ChampionActivity;
 import com.example.leagueoflgendsaccountinformation.Database.Champions;
-
-import java.util.ArrayList;
-import java.util.List;
+import com.example.leagueoflgendsaccountinformation.Model;
 
 class ChampionPresenter {
 

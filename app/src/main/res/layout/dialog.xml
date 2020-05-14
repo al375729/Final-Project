@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="300dp"
         android:text="TowersDestroyed"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,6 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="InhibitorsDestroyed"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/abc" />
@@ -33,6 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="BaronsKilled"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/InhibitorsDestroyed" />
@@ -43,6 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="HeraldsKilled"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
@@ -53,6 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="DragonsKilled"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/HeraldsKilled" />
@@ -62,6 +67,7 @@
         android:layout_width="150dp"
         android:layout_height="200dp"
         android:layout_marginTop="300dp"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -72,6 +78,7 @@
         android:layout_height="120px"
         android:layout_marginStart="40dp"
         android:layout_marginTop="200dp"
+        android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
@@ -81,6 +88,7 @@
         android:layout_width="120px"
         android:layout_height="120px"
         android:layout_marginTop="200dp"
+        android:visibility="visible"
         app:layout_constraintEnd_toStartOf="@+id/c3"
         app:layout_constraintStart_toEndOf="@+id/c1"
         app:layout_constraintTop_toTopOf="parent"
@@ -91,6 +99,7 @@
         android:layout_width="120px"
         android:layout_height="120px"
         android:layout_marginTop="200dp"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -102,6 +111,7 @@
         android:layout_width="120px"
         android:layout_height="120px"
         android:layout_marginTop="200dp"
+        android:visibility="visible"
         app:layout_constraintEnd_toStartOf="@+id/c5"
         app:layout_constraintStart_toEndOf="@+id/c3"
         app:layout_constraintTop_toTopOf="parent"
@@ -113,6 +123,7 @@
         android:layout_height="120px"
         android:layout_marginTop="200dp"
         android:layout_marginEnd="40dp"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
@@ -123,6 +134,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="300dp"
         android:text="TextView"
+        android:visibility="visible"
         app:layout_constraintEnd_toStartOf="@+id/textView8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -133,6 +145,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="TextView"
+        android:visibility="visible"
         app:layout_constraintEnd_toStartOf="@+id/textView8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/inhibitors1" />
@@ -143,6 +156,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="TextView"
+        android:visibility="visible"
         app:layout_constraintEnd_toStartOf="@+id/textView8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/barons1" />
@@ -153,6 +167,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="TextView"
+        android:visibility="visible"
         app:layout_constraintEnd_toStartOf="@+id/textView8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/towers1" />
@@ -163,6 +178,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="300dp"
         android:text="TextView"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toTopOf="parent" />
@@ -173,6 +189,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="TextView"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/herald2" />
@@ -183,6 +200,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="TextView"
+        android:visibility="visible"
         app:layout_constraintEnd_toStartOf="@+id/textView8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/herald1" />
@@ -193,6 +211,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="TextView"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/towers2" />
@@ -203,6 +222,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="TextView"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/inhibitors2" />
@@ -213,6 +233,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="TextView"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/baron2" />
@@ -223,6 +244,7 @@
         android:layout_height="120px"
         android:layout_marginStart="40dp"
         android:layout_marginTop="100dp"
+        android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
@@ -232,6 +254,7 @@
         android:layout_width="120px"
         android:layout_height="120px"
         android:layout_marginTop="100dp"
+        android:visibility="visible"
         app:layout_constraintEnd_toStartOf="@+id/c3"
         app:layout_constraintStart_toEndOf="@+id/c1"
         app:layout_constraintTop_toTopOf="parent"
@@ -242,6 +265,7 @@
         android:layout_width="120px"
         android:layout_height="120px"
         android:layout_marginTop="100dp"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -253,6 +277,7 @@
         android:layout_width="120px"
         android:layout_height="120px"
         android:layout_marginTop="100dp"
+        android:visibility="visible"
         app:layout_constraintEnd_toStartOf="@+id/c5"
         app:layout_constraintStart_toEndOf="@+id/c3"
         app:layout_constraintTop_toTopOf="parent"
@@ -264,7 +289,9 @@
         android:layout_height="120px"
         android:layout_marginTop="100dp"
         android:layout_marginEnd="40dp"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

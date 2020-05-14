@@ -10,7 +10,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24f5c26c-6d52-426f-8709-5e9f1be8136b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/Database/Champions.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/Database/Champions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/AccountActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/AccountActivity/AccountActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/AccountPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/AccountActivity/AccountPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/MatchesActivity/Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/ApiAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/ApiAccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/ChampionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/ChampionActivity/ChampionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/ChampionPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/ChampionActivity/ChampionPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/Database/ChampionsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/Database/ChampionsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/LastMatchesPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/MatchesActivity/LastMatchesPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/MainActivity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/MainPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/MainActivity/MainPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/Classes/Match.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/MatchInfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/MatchesActivity/MatchInfoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/leagueoflgendsaccountinformation/Classes/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/account_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/account_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_matches.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_matches.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +78,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LeagueOfLgendsAccountInformation - copia" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Uji-Soccer-master" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -157,7 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589493205756</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Hola">
+      <created>1589494362566</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589494362566</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Te dejaste algunso archivos de la carpeta sin subir">
+      <created>1589494411471</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589494411471</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +216,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hola" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hola" />
+    <MESSAGE value="Te dejaste algunso archivos de la carpeta sin subir" />
+    <option name="LAST_COMMIT_MESSAGE" value="Te dejaste algunso archivos de la carpeta sin subir" />
   </component>
 </project>

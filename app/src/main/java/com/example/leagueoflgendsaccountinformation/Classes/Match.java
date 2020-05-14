@@ -1,4 +1,4 @@
-package com.example.leagueoflgendsaccountinformation;
+package com.example.leagueoflgendsaccountinformation.Classes;
 
 public class Match {
 

@@ -1,4 +1,4 @@
-package com.example.leagueoflgendsaccountinformation;
+package com.example.leagueoflgendsaccountinformation.MatchesActivity;
 
 import android.graphics.Bitmap;
 import android.util.Log;
@@ -6,9 +6,11 @@ import android.util.Log;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.example.leagueoflgendsaccountinformation.Database.Champions;
+import com.example.leagueoflgendsaccountinformation.Classes.Match;
+import com.example.leagueoflgendsaccountinformation.Model;
+import com.example.leagueoflgendsaccountinformation.Classes.Player;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 class LastMatchesPresenter {
@@ -23,7 +25,6 @@ class LastMatchesPresenter {
         jugador = view.getJugador();
 
         final List<Match> matches = new ArrayList<Match>();
-        Log.d("myTag", jugador.accountId);
         model.getMatches(jugador.accountId, new Response.Listener<List<Long>>() {
             @Override
             public void onResponse(List<Long> response) {
@@ -35,7 +36,7 @@ class LastMatchesPresenter {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-
+                view.showToast("ConnectionError");
             }
         });
     }
@@ -56,6 +57,8 @@ class LastMatchesPresenter {
                             response.setChampionName(respuesta.name);
                             if(matches.size()>10){
                                 view.llenarVista(matches);
+                                view.hideProgressBar();
+                                view.showAll();
                             }
 
                         }
@@ -66,7 +69,7 @@ class LastMatchesPresenter {
             }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
-
+                    view.showToast("ConnectionError");
                 }
             });
         }
@@ -98,16 +101,14 @@ class LastMatchesPresenter {
                 public void onResponse(Bitmap response) {
                     nombresOrd.add(s);
                     imgs.add(response);
-                    Log.d("myTag","Nombres"+ String.valueOf(imgs.size()));
                     if(imgs.size()==10) {
                        view.openDialog(match,imgs,ids,campeones,nombresOrd);
-
                     }
                 }
             }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
-
+                    view.showToast("ConnectionError");
                 }
             });
 

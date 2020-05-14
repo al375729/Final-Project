@@ -1,28 +1,34 @@
-package com.example.leagueoflgendsaccountinformation;
+package com.example.leagueoflgendsaccountinformation.MatchesActivity;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.leagueoflgendsaccountinformation.ChampionActivity.ChampionActivity;
 import com.example.leagueoflgendsaccountinformation.Database.Champions;
+import com.example.leagueoflgendsaccountinformation.Classes.Match;
+import com.example.leagueoflgendsaccountinformation.MainActivity.MainActivity;
+import com.example.leagueoflgendsaccountinformation.Model;
+import com.example.leagueoflgendsaccountinformation.Classes.Player;
+import com.example.leagueoflgendsaccountinformation.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
 
 public class MatchInfoActivity extends AppCompatActivity {
 
-    private  Player jugador;
+    private Player jugador;
     private LastMatchesPresenter presenter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -199,5 +205,19 @@ public class MatchInfoActivity extends AppCompatActivity {
         Intent intent = new Intent(MatchInfoActivity.this , ChampionActivity.class);
         intent.putExtra("id",campeon);
         startActivity(intent);
+    }
+
+    public void showToast(String name) {
+        Toast.makeText(MatchInfoActivity.this,name,Toast.LENGTH_SHORT).show();
+    }
+
+    public void hideProgressBar() {
+        ProgressBar progressBar = findViewById(R.id.progressBar2) ;
+        progressBar.setVisibility(View.INVISIBLE);
+    }
+
+    public void showAll() {
+        ListView listView = findViewById(R.id.listView);
+        listView.setVisibility(View.VISIBLE);
     }
 }

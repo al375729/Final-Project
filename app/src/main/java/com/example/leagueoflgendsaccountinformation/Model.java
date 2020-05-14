@@ -3,18 +3,19 @@ package com.example.leagueoflgendsaccountinformation;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
-import android.util.Log;
 
 import androidx.room.Room;
 
 import com.android.volley.Response;
+import com.example.leagueoflgendsaccountinformation.Classes.Match;
+import com.example.leagueoflgendsaccountinformation.Classes.Player;
 import com.example.leagueoflgendsaccountinformation.Database.Champions;
 import com.example.leagueoflgendsaccountinformation.Database.ChampionsDao;
 import com.example.leagueoflgendsaccountinformation.Database.ChampionsDatabase;
 
 import java.util.List;
 
-class Model {
+public class Model {
 
     private static Model instance;
     private static ApiAccess dataAccess;

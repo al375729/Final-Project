@@ -1,4 +1,4 @@
-package com.example.leagueoflgendsaccountinformation;
+package com.example.leagueoflgendsaccountinformation.ChampionActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,7 +6,10 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
 import com.example.leagueoflgendsaccountinformation.Database.Champions;
+import com.example.leagueoflgendsaccountinformation.Model;
+import com.example.leagueoflgendsaccountinformation.R;
 
 public class ChampionActivity extends AppCompatActivity {
 

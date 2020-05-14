@@ -1,4 +1,4 @@
-package com.example.leagueoflgendsaccountinformation;
+package com.example.leagueoflgendsaccountinformation.MatchesActivity;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,7 +7,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
+import com.example.leagueoflgendsaccountinformation.Classes.Match;
+import com.example.leagueoflgendsaccountinformation.R;
 
 import java.util.List;
 

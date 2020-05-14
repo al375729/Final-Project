@@ -1,11 +1,12 @@
-package com.example.leagueoflgendsaccountinformation;
+package com.example.leagueoflgendsaccountinformation.AccountActivity;
 
 import android.graphics.Bitmap;
-import android.util.Log;
 
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.example.leagueoflgendsaccountinformation.Database.Champions;
+import com.example.leagueoflgendsaccountinformation.Model;
+import com.example.leagueoflgendsaccountinformation.Classes.Player;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,7 +29,7 @@ public class AccountPresenter {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                view.showToast("error");
+                view.showToast("Connection Error");
             }
         });
 
@@ -42,7 +43,7 @@ public class AccountPresenter {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                view.showToast("maestrias error");
+                view.showToast("Connection Error");
             }
         });
 
@@ -51,7 +52,6 @@ public class AccountPresenter {
     private void pedirSplashArts(List<Integer> response) {
         final List<String> nombres = new ArrayList<String>();
 
-        /**/
         for (int i = 0; i <3 ; i++) {
             modelo.campeonesBaseDeDatos(new Response.Listener<Champions>() {
                 @Override
@@ -74,12 +74,16 @@ public class AccountPresenter {
                 @Override
                 public void onResponse(Bitmap response) {
                     arte.add(response);
-                    if(arte.size()==3) view.DisplayMaestrias(arte);
+                    if(arte.size()==3){
+                        view.DisplayMaestrias(arte);
+                        view.hideProgressBar();
+                        view.showAll();
+                    }
                 }
             }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
-                    view.showToast(" SHYVANA ERROR");
+                    view.showToast("Connection Error");
                 }
             });
         }
