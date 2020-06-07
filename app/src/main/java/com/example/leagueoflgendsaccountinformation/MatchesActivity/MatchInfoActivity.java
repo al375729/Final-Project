@@ -3,6 +3,7 @@ package com.example.leagueoflgendsaccountinformation.MatchesActivity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
@@ -17,7 +18,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.leagueoflgendsaccountinformation.ChampionActivity.ChampionActivity;
 import com.example.leagueoflgendsaccountinformation.Database.Champions;
 import com.example.leagueoflgendsaccountinformation.Classes.Match;
-import com.example.leagueoflgendsaccountinformation.MainActivity.MainActivity;
 import com.example.leagueoflgendsaccountinformation.Model;
 import com.example.leagueoflgendsaccountinformation.Classes.Player;
 import com.example.leagueoflgendsaccountinformation.R;
@@ -204,6 +204,7 @@ public class MatchInfoActivity extends AppCompatActivity {
     public void campeonActivity(String campeon){
         Intent intent = new Intent(MatchInfoActivity.this , ChampionActivity.class);
         intent.putExtra("id",campeon);
+
         startActivity(intent);
     }
 

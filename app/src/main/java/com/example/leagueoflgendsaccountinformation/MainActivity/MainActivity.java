@@ -34,7 +34,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 name = nameInput.getText().toString();
 
-                presenter.getUser(name);
+                if(name.length()<3){
+                    showToast("Your name must have more than 3 characters");
+                }
+                else  presenter.getUser(name);
+
             }
         });
 

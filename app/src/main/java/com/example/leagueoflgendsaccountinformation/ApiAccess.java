@@ -234,9 +234,6 @@ private RequestQueue requestQueue;
 
     public void getMiniatura(String s, final Response.Listener<Bitmap> listener, Response.ErrorListener errorListener) {
 
-        s=s.replaceAll("\\s+","");
-        if(s.equals("Cho'Gath")) s="Chogath";
-        else if(s.equals("Kai'Sa")) s="Kaisa";
         imageRequest("https://ddragon.leagueoflegends.com/cdn/10.10.3208608/img/champion/"+s+".png", new Response.Listener<Bitmap>() {
             @Override
             public void onResponse(Bitmap response) {
@@ -407,10 +404,12 @@ private RequestQueue requestQueue;
                 Object key = keys.next();
                 JSONObject campeon = campeones.getJSONObject((String) key);
                 String nombre = campeon.getString("name");
+                String nombreBuscador = campeon.getString("id");
                 int id = campeon.getInt("key");
+                if(id ==421) Log.d("myTag", nombre);
                 String title = campeon.getString("title");
                 String blurb = campeon.getString("blurb");
-                lista.add(new Champions(id,nombre,title,blurb));
+                lista.add(new Champions(id,nombre,nombreBuscador,title,blurb));
             }
         } catch (JSONException e) {
             return null;

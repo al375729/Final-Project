@@ -1,5 +1,7 @@
 package com.example.leagueoflgendsaccountinformation.ChampionActivity;
 
+import android.util.Log;
+
 import com.android.volley.Response;
 import com.example.leagueoflgendsaccountinformation.ChampionActivity.ChampionActivity;
 import com.example.leagueoflgendsaccountinformation.Database.Champions;

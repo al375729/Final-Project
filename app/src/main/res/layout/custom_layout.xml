@@ -20,17 +20,17 @@
         android:id="@+id/assistsFill"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="75dp"
+        android:layout_marginStart="245dp"
         android:layout_marginTop="16dp"
         android:text="12"
-        app:layout_constraintStart_toEndOf="@+id/deathsFill"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/resultFill"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="356dp"
+        android:layout_marginStart="315dp"
         android:layout_marginTop="16dp"
         android:text="WIN"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,10 +40,10 @@
         android:id="@+id/deathsFill"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="65dp"
+        android:layout_marginStart="180dp"
         android:layout_marginTop="16dp"
         android:text="0"
-        app:layout_constraintStart_toEndOf="@+id/killsFill"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView

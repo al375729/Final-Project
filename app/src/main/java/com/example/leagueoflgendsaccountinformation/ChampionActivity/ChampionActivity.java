@@ -2,6 +2,7 @@ package com.example.leagueoflgendsaccountinformation.ChampionActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,7 +25,6 @@ public class ChampionActivity extends AppCompatActivity {
         campeon = (String) intent.getSerializableExtra("id");
         Model model = Model.getInstance(this);
         final ChampionPresenter presenter = new ChampionPresenter(this,model);
-
 
 
     }

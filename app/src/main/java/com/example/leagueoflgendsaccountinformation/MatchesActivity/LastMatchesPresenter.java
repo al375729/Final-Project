@@ -84,7 +84,7 @@ class LastMatchesPresenter {
                 @Override
                 public void onResponse(Champions response) {
                     campeones.add(response);
-                    nombres.add(response.name);
+                    nombres.add(response.searchName);
                     if(nombres.size()==10) obtenerImgs(nombres,match,ids,campeones);
 
                 }

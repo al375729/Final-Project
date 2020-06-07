@@ -15,6 +15,6 @@ public abstract class ChampionsDao {
     @Query("SELECT * FROM champions WHERE id == (:id) ")
     public abstract Champions getChampionById(Integer id);
 
-    @Query("SELECT * FROM champions WHERE name == (:name) ")
+    @Query("SELECT * FROM champions WHERE searchName == (:name) ")
     public abstract Champions getChampionByString(String name);
 }

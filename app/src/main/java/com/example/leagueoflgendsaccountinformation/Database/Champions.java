@@ -15,6 +15,9 @@ public class Champions implements Serializable {
     @ColumnInfo(name = "name")
     public String name;
 
+    @ColumnInfo(name = "searchName")
+    public String searchName;
+
     @ColumnInfo(name = "title")
     public String title;
 
@@ -22,10 +25,11 @@ public class Champions implements Serializable {
     public String blurb;
 
 
-    public Champions(int id, String name, String title, String blurb) {
+    public Champions(int id, String name,String searchName, String title, String blurb) {
         this.id = id;
         this.name = name;
         this.title = title;
         this.blurb = blurb;
+        this.searchName = searchName;
     }
 }
